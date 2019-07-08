@@ -30,6 +30,22 @@ describe('Streaming Downloads', () => {
       })();
     });
 
+    it('passes through non-200 success codes', () => {
+      return (async () => {
+        nock('https://example.com/')
+          .get('/r204')
+          .reply(204, 'Hello');
+        const { path, cleanup } = await tmp.file();
+        const c = await download.download(
+          request.get('https://example.com/r204'),
+          path
+        );
+        assert.deepStrictEqual(c.statusCode, 204);
+        assert.deepStrictEqual(fs.statSync(path).size, 0);
+        await cleanup();
+      })();
+    });
+
     it('works on large files #slow', () => {
       const len = 1024 * 1024 * 5;
       return (async () => {
