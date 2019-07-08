@@ -1,6 +1,6 @@
 {
-  "name": "download-promise",
-  "version": "0.1.0-alpha",
+  "name": "request-stream-promise",
+  "version": "0.1.4",
   "description": "Promise for streamed downloads using request",
   "repository": {
     "type": "git",
