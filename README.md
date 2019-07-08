@@ -1,7 +1,7 @@
-# download-promise - Promise for streamed downloads using request
+# request-stream-promise - Promise for streamed downloads using request
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE) [![Build Status](https://travis-ci.com/holvonix-open/download-promise.svg?branch=master)](https://travis-ci.com/holvonix-open/download-promise) [![GitHub last commit](https://img.shields.io/github/last-commit/holvonix-open/download-promise.svg)](https://github.com/holvonix-open/download-promise/commits) [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/holvonix-open/download-promise.svg)](https://github.com/holvonix-open/download-promise/releases)  
-[![codecov](https://codecov.io/gh/holvonix-open/download-promise/branch/master/graph/badge.svg)](https://codecov.io/gh/holvonix-open/download-promise) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=holvonix-open/download-promise)](https://dependabot.com) [![DeepScan grade](https://deepscan.io/api/teams/4465/projects/6259/branches/51411/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=4465&pid=6259&bid=51411) [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE) [![Build Status](https://travis-ci.com/holvonix-open/request-stream-promise.svg?branch=master)](https://travis-ci.com/holvonix-open/request-stream-promise) [![GitHub last commit](https://img.shields.io/github/last-commit/holvonix-open/request-stream-promise.svg)](https://github.com/holvonix-open/request-stream-promise/commits) [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/holvonix-open/request-stream-promise.svg)](https://github.com/holvonix-open/request-stream-promise/releases)  
+[![codecov](https://codecov.io/gh/holvonix-open/request-stream-promise/branch/master/graph/badge.svg)](https://codecov.io/gh/holvonix-open/request-stream-promise) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=holvonix-open/request-stream-promise)](https://dependabot.com) [![DeepScan grade](https://deepscan.io/api/teams/4465/projects/6260/branches/51418/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=4465&pid=6260&bid=51418) [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
 
 
 ## Features
@@ -17,10 +17,10 @@ Section 4d of the License.
 
 ````
 
-# download-promise
+# request-stream-promise
 
 This product contains software originally developed by Holvonix LLC.
-Original Repository: https://github.com/holvonix-open/download-promise
+Original Repository: https://github.com/holvonix-open/request-stream-promise
 
 Copyright (c) 2019 Holvonix LLC. All rights reserved.
 

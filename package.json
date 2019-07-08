@@ -4,7 +4,7 @@
   "description": "Promise for streamed downloads using request",
   "repository": {
     "type": "git",
-    "url": "https://github.com/holvonix-open/download-promise.git"
+    "url": "https://github.com/holvonix-open/request-stream-promise.git"
   },
   "keywords": [
     "request",
