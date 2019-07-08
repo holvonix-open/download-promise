@@ -3,9 +3,24 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE) ![npm](https://img.shields.io/npm/v/request-stream-promise.svg) [![Build Status](https://travis-ci.com/holvonix-open/request-stream-promise.svg?branch=master)](https://travis-ci.com/holvonix-open/request-stream-promise) [![GitHub last commit](https://img.shields.io/github/last-commit/holvonix-open/request-stream-promise.svg)](https://github.com/holvonix-open/request-stream-promise/commits) [![codecov](https://codecov.io/gh/holvonix-open/request-stream-promise/branch/master/graph/badge.svg)](https://codecov.io/gh/holvonix-open/request-stream-promise) [![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=holvonix-open/request-stream-promise)](https://dependabot.com) [![DeepScan grade](https://deepscan.io/api/teams/4465/projects/6260/branches/51418/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=4465&pid=6260&bid=51418) [![Code Style: Google](https://img.shields.io/badge/code%20style-google-blueviolet.svg)](https://github.com/google/gts)
 
 
-## Features
+## Quick Start
 
-* TODO
+After `yarn add request request-stream-promise':
+
+````typescript
+import * as request from 'request';
+import { download } from 'request-stream-promise';
+import * as fs from 'fs';
+
+async function getIt() {
+  // The file is streamed internally.
+  await download(
+    request.get('https://example.com/aVeryLargeFile.txt', '/tmp/file.txt')
+  );
+  // etc.
+  console.log(fs.readFileSync('/tmp/file.txt', 'utf-8'));
+}
+````
 
 
 ## License
