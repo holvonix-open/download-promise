@@ -15,7 +15,7 @@ import * as fs from 'fs';
 async function getIt() {
   // The file is streamed internally.
   await download(
-    request.get('https://example.com/aVeryLargeFile.txt', '/tmp/file.txt')
+    request.get('https://example.com/aVeryLargeFile.txt'), '/tmp/file.txt'
   );
   // etc.
   console.log(fs.readFileSync('/tmp/file.txt', 'utf-8'));
