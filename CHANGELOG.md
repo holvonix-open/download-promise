@@ -1,3 +1,10 @@
+## [2.1.3](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.2...v2.1.3) (2019-08-01)
+
+
+### Bug Fixes
+
+* **build:** fix broken build scripts ([d307e7f](https://github.com/holvonix-open/request-stream-promise/commit/d307e7f))
+
 ## [2.1.2](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.1...v2.1.2) (2019-08-01)
 
 
