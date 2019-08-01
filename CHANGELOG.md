@@ -1,3 +1,10 @@
+## [2.1.2](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.1...v2.1.2) (2019-08-01)
+
+
+### Bug Fixes
+
+* return to node 10 ([0cdb9f4](https://github.com/holvonix-open/request-stream-promise/commit/0cdb9f4))
+
 ## [2.1.1](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.0...v2.1.1) (2019-08-01)
 
 
