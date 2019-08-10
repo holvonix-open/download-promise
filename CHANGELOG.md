@@ -1,3 +1,11 @@
+## [2.1.5](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.4...v2.1.5) (2019-08-10)
+
+
+### 📖 Documentation
+
+* fix spdx ([4634fac](https://github.com/holvonix-open/request-stream-promise/commit/4634fac))
+* include min size badge [skip-release] ([401b619](https://github.com/holvonix-open/request-stream-promise/commit/401b619))
+
 ## [2.1.4](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.3...v2.1.4) (2019-08-10)
 
 
