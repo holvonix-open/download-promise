@@ -1,6 +1,6 @@
 {
   "name": "request-stream-promise",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "Promise for streamed downloads using request",
   "repository": {
     "type": "git",
