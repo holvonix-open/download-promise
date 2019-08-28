@@ -1,3 +1,26 @@
+## [2.1.6](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.5...v2.1.6) (2019-08-28)
+
+
+### 🐛 Bug Fixes
+
+* **deps-dev:** bump typescript from 3.5.3 to 3.6.2 ([#21](https://github.com/holvonix-open/request-stream-promise/issues/21)) ([1ce547e](https://github.com/holvonix-open/request-stream-promise/commit/1ce547e))
+
+
+### 📖 Documentation
+
+* delete legacy bug template ([2abb557](https://github.com/holvonix-open/request-stream-promise/commit/2abb557))
+
+
+### 🧦 Miscellaneous
+
+* **deps-dev:** bump @holvonix-open/release-config-js ([#15](https://github.com/holvonix-open/request-stream-promise/issues/15)) ([6beca71](https://github.com/holvonix-open/request-stream-promise/commit/6beca71))
+* **deps-dev:** bump @holvonix-open/release-config-js ([#16](https://github.com/holvonix-open/request-stream-promise/issues/16)) ([cc0cf8c](https://github.com/holvonix-open/request-stream-promise/commit/cc0cf8c))
+* **deps-dev:** bump @holvonix-open/release-config-js ([#17](https://github.com/holvonix-open/request-stream-promise/issues/17)) ([2ecae05](https://github.com/holvonix-open/request-stream-promise/commit/2ecae05))
+* stale settings ([e71593f](https://github.com/holvonix-open/request-stream-promise/commit/e71593f))
+* **deps-dev:** bump @holvonix-open/release-config-js ([#18](https://github.com/holvonix-open/request-stream-promise/issues/18)) ([9a82f2d](https://github.com/holvonix-open/request-stream-promise/commit/9a82f2d))
+* **deps-dev:** bump @holvonix-open/release-config-js ([#20](https://github.com/holvonix-open/request-stream-promise/issues/20)) ([f377fe3](https://github.com/holvonix-open/request-stream-promise/commit/f377fe3))
+* **deps-dev:** bump @types/node from 12.7.1 to 12.7.2 ([#19](https://github.com/holvonix-open/request-stream-promise/issues/19)) ([e7a40f9](https://github.com/holvonix-open/request-stream-promise/commit/e7a40f9))
+
 ## [2.1.5](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.4...v2.1.5) (2019-08-10)
 
 
