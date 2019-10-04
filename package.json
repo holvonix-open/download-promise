@@ -56,18 +56,20 @@
     "check": "gts check",
     "compile": "tsc -p .",
     "fix": "gts fix",
-    "prepare": "yarn clean && yarn run check && yarn run compile",
+    "prepare": "npm run snyk-protect && yarn clean && yarn run check && yarn run compile",
     "pretest": "yarn run compile",
     "posttest": "yarn run check",
     "preversion": "yarn test",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "snyk-protect": "snyk protect"
   },
   "release": {
     "extends": "@holvonix-open/release-config-js"
   },
   "dependencies": {
     "bluebird": "^3.5.5",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "@holvonix-open/release-config-js": "^1.0.3",
@@ -85,5 +87,6 @@
     "tmp-promise": "^2.0.2",
     "ts-mocha": "^6.0.0",
     "typescript": "~3.6.2"
-  }
+  },
+  "snyk": true
 }
