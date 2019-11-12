@@ -1,3 +1,15 @@
+## [2.1.7](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.6...v2.1.7) (2019-11-12)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** bump bluebird from 3.5.5 to 3.7.1 ([#50](https://github.com/holvonix-open/request-stream-promise/issues/50)) ([37db357](https://github.com/holvonix-open/request-stream-promise/commit/37db357))
+
+
+### 🧦 Miscellaneous
+
+* **deps-dev:** bump @holvonix-open/release-config-js ([#39](https://github.com/holvonix-open/request-stream-promise/issues/39)) ([5642075](https://github.com/holvonix-open/request-stream-promise/commit/5642075))
+
 ## [2.1.6](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.5...v2.1.6) (2019-08-28)
 
 
