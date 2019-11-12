@@ -1,3 +1,10 @@
+## [2.1.8](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.7...v2.1.8) (2019-11-12)
+
+
+### 🐛 Bug Fixes
+
+* **deps-dev:** @holvonix-open/release-config-js@1.0.12, @types/bluebird@3.5.29, @types/nock@11.1.0, @types/node ([45b34a3](https://github.com/holvonix-open/request-stream-promise/commit/45b34a3))
+
 ## [2.1.7](https://github.com/holvonix-open/request-stream-promise/compare/v2.1.6...v2.1.7) (2019-11-12)
 
 
