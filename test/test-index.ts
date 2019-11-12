@@ -163,7 +163,6 @@ describe('Streaming Downloads', () => {
         } finally {
           await cleanup();
         }
-        assert.fail('Did not error');
       })();
     });
 
@@ -185,7 +184,6 @@ describe('Streaming Downloads', () => {
         } finally {
           await cleanup();
         }
-        assert.fail('Did not error');
       })();
     });
 
@@ -207,7 +205,6 @@ describe('Streaming Downloads', () => {
         } finally {
           await cleanup();
         }
-        assert.fail('Did not error');
       })();
     });
   }).timeout(3000);
