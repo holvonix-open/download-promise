@@ -83,6 +83,6 @@
     "nyc": "^15.0.0",
     "tmp-promise": "^2.0.2",
     "ts-mocha": "^6.0.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.9.7"
   }
 }
