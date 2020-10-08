@@ -73,7 +73,7 @@
     "@holvonix-open/release-config-js": "^1.0.12",
     "@types/bluebird": "^3.5.29",
     "@types/mocha": "^5.2.5",
-    "@types/node": "^12.12.7",
+    "@types/node": "^14.11.6",
     "@types/request": "^2.48.3",
     "@types/tmp": "^0.1.0",
     "codecov": "^3.6.1",
